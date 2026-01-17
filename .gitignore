@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Data pipeline cache
+data/cache/
+data/*.cache
+
+# Large data files
+data/NPPES_Data_Dissemination_*/
+data/**/*.csv
+data/**/*.pdf
+frontend/public/data/*.geojson
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keys and sensitive files
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+*.credentials
+.env
+.env.*
+!.env.example
+config.json
+secrets.json
+*.token
+
